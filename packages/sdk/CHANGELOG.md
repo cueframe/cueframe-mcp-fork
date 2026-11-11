@@ -1,5 +1,11 @@
 # @cueframe/sdk
 
+## 0.18.0
+
+### Minor Changes
+
+- 651f987: Align the generated API contract and client types with the current account, pagination and response schemas. The SDK removes generated query-limit constants and exposes unknown pagination parser outputs; see the SDK 0.18 migration guide.
+
 ## 0.17.2
 
 ### Patch Changes
