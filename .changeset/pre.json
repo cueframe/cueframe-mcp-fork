@@ -1,0 +1,13 @@
+{
+  "mode": "pre",
+  "tag": "mcf28-local20261113",
+  "initialVersions": {
+    "@cueframe/api-contract": "7.0.2",
+    "cueframe": "0.12.1",
+    "@cueframe/sdk": "0.17.2",
+    "@cueframe/skills": "0.4.7"
+  },
+  "changesets": [
+    "current-http-projection"
+  ]
+}
