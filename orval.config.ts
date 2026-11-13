@@ -9,7 +9,7 @@ const SDK_GENERATED = join(ROOT, "packages", "sdk", "src", "generated");
 
 export default defineConfig({
   cueframe: {
-    input: { target: OPENAPI },
+    input: { target: OPENAPI, override: { transformer: join(ROOT, "tools", "sdk-wire-spec.mjs") } },
     output: {
       mode: "tags-split",
       target: join(SDK_GENERATED, "index.ts"),
